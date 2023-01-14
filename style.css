@@ -1,0 +1,133 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body
+{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.profile
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profile .img-box img
+{
+    border-radius: 100%;
+}
+.profile h2
+{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+.title
+{
+    margin-top: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+}
+.contact ul
+{
+    position: relative;
+}
+.contact ul li
+{
+    margin: 50px 0px;
+    list-style: none;
+    cursor: pointer;
+}
+.contact ul li .text
+{
+    color: white;
+}
+.contact ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    color: skyblue;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left_side
+{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+.container .left_side .education .title
+{
+    color: #003147;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.container .left_side .education ul li
+{
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+.container .left_side .skills .title
+{
+    color: #003147;
+}
+.container .left_side .skills ul li
+{
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+.container .left_side .hobbies .title
+{
+    color: #003147;
+}
+.container .left_side .hobbies ul li
+{
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+.container .left_side .certificates .title
+{
+    color: #003147;
+}
+.container .left_side .certificates ul li
+{
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+.container .left_side .languages .title
+{
+    color: #003147;
+}
+.container .left_side .languages ul li
+{
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+.container .right_side
+{
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+}
